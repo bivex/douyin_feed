@@ -1,0 +1,23 @@
+Douyin тренды — 2026-07-01 00:58
+status_code: 0 | тем: 5
+======================================================================
+
+# 1  [12,106,692🔥]  抖瓦杯S4四强开赛  (sentence_id=2553522)
+     видео : https://www.douyin.com/video/7656047929158210831
+     поиск : https://www.douyin.com/search/%E6%8A%96%E7%93%A6%E6%9D%AFS4%E5%9B%9B%E5%BC%BA%E5%BC%80%E8%B5%9B
+
+# 2  [12,026,718🔥]  法国vs瑞典  (sentence_id=2553296)
+     видео : https://www.douyin.com/video/6581774967493367054
+     поиск : https://www.douyin.com/search/%E6%B3%95%E5%9B%BDvs%E7%91%9E%E5%85%B8
+
+# 3  [11,813,045🔥]  用捡来的水瓶给妈妈做了一束花  (sentence_id=2553535)
+     видео : https://www.douyin.com/video/7655401161336214825
+     поиск : https://www.douyin.com/search/%E7%94%A8%E6%8D%A1%E6%9D%A5%E7%9A%84%E6%B0%B4%E7%93%B6%E7%BB%99%E5%A6%88%E5%A6%88%E5%81%9A%E4%BA%86%E4%B8%80%E6%9D%9F%E8%8A%B1
+
+# 4  [10,484,530🔥]  80岁奶奶的照相馆  (sentence_id=2552968)
+     видео : https://www.douyin.com/video/7656839028004099378
+     поиск : https://www.douyin.com/search/80%E5%B2%81%E5%A5%B6%E5%A5%B6%E7%9A%84%E7%85%A7%E7%9B%B8%E9%A6%86
+
+# 5  [10,444,370🔥]  我的青春回忆录  (sentence_id=2553503)
+     видео : https://www.douyin.com/video/6598290123010348292
+     поиск : https://www.douyin.com/search/%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E5%9B%9E%E5%BF%86%E5%BD%95

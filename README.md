@@ -14,8 +14,16 @@
 ## Установка / запуск
 ```bash
 pip install -r requirements.txt
-python3 douyin_feed.py
+
+python3 douyin_feed.py                  # тренды в консоль (топ-15)
+python3 douyin_feed.py --limit 30       # топ-30
+python3 douyin_feed.py --save           # + снимок в douyin_feed_trending_<дата>.txt
+python3 douyin_feed.py --mp4 <aweme_id> # получить play URL видео
 ```
+
+`--mp4` вернёт `play_addr` только если `SOCKS5` указывает на **узел в Китае**
+(Douyin геозаблокировал `aweme/detail` и CDN видео на китайские IP). На текущем
+US‑прокси ответ пустой.
 
 ## Как это работает
 1. **ttwid** — `POST https://ttwid.bytedance.com/ttwid/union/register/` (Set-Cookie).
@@ -35,7 +43,11 @@ cli = DouyinClient()
 cli.init_tokens()
 feed = cli.get_trending(limit=20)
 for it in feed["items"]:
-    print(it["position"], it["hot_value"], it["word"])
+    print(it["position"], it["hot_value"], it["word"], it["video_url"])
+
+# play URL (нужен CN-прокси):
+d = cli.get_video_detail("7656047929158210831")
+print(d["play_urls"])
 ```
 
 ## Конфиг
